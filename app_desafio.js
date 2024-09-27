@@ -1,16 +1,24 @@
 alert('Boas-vindas ao nosso site!');
+let contador = 0;
 
-let nome = "Lua";
-let idade = 25;
-let numeroDeVendas = 50;
-let saldoDisponivel = 1000;
+// while(contador < 10){
+//         contador++;
+//         alert(contador);
+// }
 
-let mensagemDeErro = 'Erro! Preencha todos os campos';
-alert(mensagemDeErro);
+// while(contador > 0){
+//         alert(contador);
+//         contador--;
+// }
 
-letnome = prompt("Qual é o seu nome?")
-idade = prompt("Qual é sua idade?")
+// let numero = prompt("Informe um nr para contar deste nr até 0");
+// while(numero >= 0){
+//         alert(numero);
+//         numero--;
+// }
 
-if (idade >= 18){
-        alert("Pode tirar a habilitação!")
+let numero = prompt("Informe um nr para contar este nr:");
+while(contador < numero){
+        contador++;
+        alert(contador);
 }
